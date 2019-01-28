@@ -10,7 +10,7 @@ namespace MasterGame
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Wololoo");
         }
     }
 }
