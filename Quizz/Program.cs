@@ -41,7 +41,7 @@ namespace Quizz
                     {
                         numbersOnList.Add(randomKyssäri);
                         //Console.WriteLine("Random kyssärin numero: " + randomKyssäri);
-                        //
+                        // Testimuutos
                     }
                 }
                 
