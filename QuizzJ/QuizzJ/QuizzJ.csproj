@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6EA19A59-8329-499B-B308-949E8C7E6CEB}</ProjectGuid>
+    <ProjectGuid>{38892254-2FAE-4E2D-98A5-9FB635E860EB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MasterGame</RootNamespace>
-    <AssemblyName>MasterGame</AssemblyName>
+    <RootNamespace>QuizzJ</RootNamespace>
+    <AssemblyName>QuizzJ</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,21 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProgramMasterGame.cs" />
+    <Compile Include="Kysymykset.cs" />
+    <Compile Include="Pelaaja.cs" />
+    <Compile Include="ProgramQuizzJ.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\QuizzJ\QuizzJ\QuizzJ.csproj">
-      <Project>{38892254-2fae-4e2d-98a5-9fb635e860eb}</Project>
-      <Name>QuizzJ</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Quizz\Quizz.csproj">
-      <Project>{c3682ec9-c6d9-4345-a869-d257c802211e}</Project>
-      <Name>Quizz</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

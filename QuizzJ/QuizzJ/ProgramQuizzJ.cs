@@ -6,37 +6,37 @@ using System.Text;
 
 namespace Kysymykset
 {
-    class ProgramQuizzJ
+    public class ProgramQuizzJ
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             string menu;
             do
             {
-            ListanLatausJaSekoitus();
+                ListanLatausJaSekoitus();
 
-            string pelaajanNimi;
-            Kysymykset kys = new Kysymykset();
-            Pelaaja print = new Pelaaja();
+                string pelaajanNimi;
+                Kysymykset kys = new Kysymykset();
+                Pelaaja print = new Pelaaja();
                 Console.Clear();
-            Console.WriteLine("Hei, kerro nimesi!");
-            pelaajanNimi = Console.ReadLine();
+                Console.WriteLine("Hei, kerro nimesi!");
+                pelaajanNimi = Console.ReadLine();
                 Console.Clear();
 
-            kys.lueKysymykset();
-            int kokonaispisteet = 0;
-            
+                kys.lueKysymykset();
+                int kokonaispisteet = 0;
 
-            kokonaispisteet = kys.kysyKysymys();
-            Console.Clear();
-            Console.WriteLine($"Kiitos pelaamisesta {pelaajanNimi}!");
-            Console.WriteLine($"Sait {kokonaispisteet} / 10 oikein!");
-            Console.WriteLine("Valikko");
-            Console.WriteLine("1. Pelaa peli");
-            Console.WriteLine("2. Lopeta peli");
-            menu = Console.ReadLine();
-            Console.Clear();
-            Console.WriteLine("KIITTIMOI!");
+
+                kokonaispisteet = kys.kysyKysymys();
+                Console.Clear();
+                Console.WriteLine($"Kiitos pelaamisesta {pelaajanNimi}!");
+                Console.WriteLine($"Sait {kokonaispisteet} / 10 oikein!");
+                Console.WriteLine("Valikko");
+                Console.WriteLine("1. Pelaa peli");
+                Console.WriteLine("2. Lopeta peli");
+                menu = Console.ReadLine();
+                Console.Clear();
+                Console.WriteLine("KIITTIMOI!");
 
 
             } while (menu != "2");

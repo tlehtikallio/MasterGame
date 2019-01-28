@@ -20,3 +20,9 @@ C:\Users\joona\Desktop\VIikko1-Peli\VIikko1-Peli\obj\Debug\netcoreapp2.2\VIikko1
 C:\Users\joona\Desktop\VIikko1-Peli\VIikko1-Peli\obj\Debug\netcoreapp2.2\VIikko1-Peli.AssemblyInfo.cs
 C:\Users\joona\Desktop\VIikko1-Peli\VIikko1-Peli\obj\Debug\netcoreapp2.2\VIikko1-Peli.dll
 C:\Users\joona\Desktop\VIikko1-Peli\VIikko1-Peli\obj\Debug\netcoreapp2.2\VIikko1-Peli.pdb
+C:\work\MasterGame\obj\Debug\netcoreapp2.2\VIikko1-Peli.csprojAssemblyReference.cache
+C:\work\MasterGame\obj\Debug\netcoreapp2.2\VIikko1-Peli.csproj.CoreCompileInputs.cache
+C:\work\MasterGame\obj\Debug\netcoreapp2.2\VIikko1-Peli.AssemblyInfoInputs.cache
+C:\work\MasterGame\obj\Debug\netcoreapp2.2\VIikko1-Peli.AssemblyInfo.cs
+C:\work\MasterGame\obj\Debug\netcoreapp2.2\VIikko1-Peli.dll
+C:\work\MasterGame\obj\Debug\netcoreapp2.2\VIikko1-Peli.pdb

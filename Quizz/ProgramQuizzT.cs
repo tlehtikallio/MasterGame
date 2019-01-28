@@ -14,7 +14,7 @@ namespace Quizz
         public static int KysymyksenNumero;
         public static int randomKyssäri;
 
-        static void Main(string[] args)
+        public static void Main()
         {
             PelaajanNimiMetodi();
             AllQuestions();

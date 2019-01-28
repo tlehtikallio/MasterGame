@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizzJ", "QuizzJ\QuizzJ.csproj", "{38892254-2FAE-4E2D-98A5-9FB635E860EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38892254-2FAE-4E2D-98A5-9FB635E860EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38892254-2FAE-4E2D-98A5-9FB635E860EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38892254-2FAE-4E2D-98A5-9FB635E860EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38892254-2FAE-4E2D-98A5-9FB635E860EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {833D1996-2029-4216-95D2-BCC873346A0C}
+	EndGlobalSection
+EndGlobal
