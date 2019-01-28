@@ -13,17 +13,24 @@ namespace MasterGame
             Console.WriteLine("Haluatko pelata peliä 1 vai 2?");
             string vastaus = Console.ReadLine();
 
-            if (int.Parse(vastaus) == 1)
+            try
             {
-                Quizz.ProgramQuizzT.Main();
-            }
+                if (int.Parse(vastaus) == 1)
+                {
+                    Quizz.ProgramQuizzT.Main();
+                }
 
-            if (int.Parse(vastaus) == 2)
-            {
-                Kysymykset.ProgramQuizzJ.Main();
-            }
+                if (int.Parse(vastaus) == 2)
+                {
+                    Kysymykset.ProgramQuizzJ.Main();
+                }
 
-            else
+                else
+                {
+                    Main();
+                }
+            }
+            catch
             {
                 Main();
             }
