@@ -45,7 +45,7 @@ namespace Kysymykset
             {
                 List<string> järjestyksessä;
                 //using (StreamReader lataus = new StreamReader("c://work//temp//kysymykset.txt", Encoding.GetEncoding("iso-8859-1")))
-                using (StreamReader lataus = new StreamReader("C://work//MasterGame//kysymykset.txt", Encoding.GetEncoding("iso-8859-1")))
+                using (StreamReader lataus = new StreamReader("c://work//kysymykset.txt", Encoding.GetEncoding("iso-8859-1")))
                 {
                     järjestyksessä = new List<string>();
                     string rivi = lataus.ReadLine();
