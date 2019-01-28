@@ -10,6 +10,7 @@ namespace MasterGame
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
