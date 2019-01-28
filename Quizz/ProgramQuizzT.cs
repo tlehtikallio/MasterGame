@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Quizz
 {
-    public class Program
+    public class ProgramQuizzT
     {
         public static int Pisteet;
         public static string PelaajanNimi;

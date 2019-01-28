@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterGame", "MasterGame\MasterGame.csproj", "{6EA19A59-8329-499B-B308-949E8C7E6CEB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VIikko1-Peli", "VIikko1-Peli.csproj", "{B3839F87-4912-41BC-80F4-870E5555D9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizz", "Quizz\Quizz.csproj", "{C3682EC9-C6D9-4345-A869-D257C802211E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6EA19A59-8329-499B-B308-949E8C7E6CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EA19A59-8329-499B-B308-949E8C7E6CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EA19A59-8329-499B-B308-949E8C7E6CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3839F87-4912-41BC-80F4-870E5555D9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3839F87-4912-41BC-80F4-870E5555D9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3839F87-4912-41BC-80F4-870E5555D9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3839F87-4912-41BC-80F4-870E5555D9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3682EC9-C6D9-4345-A869-D257C802211E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3682EC9-C6D9-4345-A869-D257C802211E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3682EC9-C6D9-4345-A869-D257C802211E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3682EC9-C6D9-4345-A869-D257C802211E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

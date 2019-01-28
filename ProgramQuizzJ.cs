@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Kysymykset
 {
-    class Program
+    class ProgramQuizzJ
     {
         static void Main(string[] args)
         {
